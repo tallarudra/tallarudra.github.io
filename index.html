@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="language" content="en-US">
+    <meta name="author" content="Krishna Sai Rudra Dev Tallapragada" />
+    <meta name="description" content="Krishna Sai's personal website." />
+    <title>Krishna Sai</title>
+
+    
+    
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,500'
+          rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script src="typed.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+      Typed.new('.element', {
+        strings: ["Learner","Developer","Coder","Learner, Developer, Coder"],
+        typeSpeed: 10
+      });
+  });
+</script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+.card-top {
+    position: relative;
+    width: 100%;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+width:60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.card-top:hover .image {
+  opacity: 0.3;
+}
+
+.card-top:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #2F4F4F;
+  color: white;
+  font-size: 14px;
+  padding: 16px 32px;
+}
+</style>
+
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Krishna Sai Rudra Dev Tallapragada</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li><a href="https://500px.com/wli">Projects</a></li>
+            
+            <li><a href="/resume/">Resume</a></li>
+            <li><a href="/#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="root-container">
+      
+<div class="hero" style="background-image: url(hello.jpg)">
+  <div class="hero-text">
+    <h1>Hello, I'm Krishna.</h1>
+    <span class="hero-tagline element"></span>
+  </div>
+    
+</div>
+
+<div class="coding">
+  <a name="coding"></a>
+  <div class="hero">
+    <div class="hero-text hero-text-dark">
+      <h2>I build products</h2>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-top">
+            <a href="http://ktallapr.us-west-2.elasticbeanstalk.com/"
+               style="background-image: url('fb.png')" class="image">
+                
+            </a>
+              <div class="middle">
+    <div class="text"><center><b>Technologies:</b><br>HTML - CSS - JavaScript - PHP - JQuery - BootStrap - AWS - Android - Facebook Graph API</center> </div>
+  </div>
+          </div>
+          <div class="card-bottom">
+            <h3>Facebook Search</h3>
+            Developed a website and mobile application
+            (Android) to implement Facebook Search functionality using Facebook Graph API.
+          </div>
+        </div>
+      </div>
+
+     <div class="col-sm-4">
+        <div class="card">
+          <div class="card-top">
+            <a href="http://localhost/v2.html"
+               style="background-image: url('duo.png')" class="image">
+                
+            </a>
+              <div class="middle">
+    <div class="text"><center><b>Technologies:</b><br>HTML - JavaScript - PHP - MongoDB</center> </div>
+  </div>
+          </div>
+          <div class="card-bottom">
+            <h3>Duo Share</h3>
+            Developed a website that enables two end users to share pictures privately and access them as required using a hash value generated based on the pair’s email ids with backend storage using MongoDB.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-top">
+            <img src="loc.png" style="max-width:100%;  max-height:100%;" class="image">
+              <div class="middle">
+    <div class="text"><center><b>Technologies:</b><br>C++ - OpenCV - Visual Studio 2010</center> </div>
+  </div>
+          </div>
+          <div class="card-bottom">
+            <h3>Image Retrieval for Localization using Bag of Words Model</h3>
+            Developed an application to determine longitude, latitude of the place where a given query image was captured using Tokyo247 dataset.<br>Reduced execution time by up to 80%.
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-top">
+            <img src="exam.png" style="max-width:100%;  max-height:100%;" class="image">
+              <div class="middle">
+    <div class="text"><center><b>Technologies:</b><br>Python - Xlrd - Tkinter - Microsoft Excel</center> </div>
+  </div>
+          </div>
+          <div class="card-bottom">
+            <h3>Examination Scheduling System</h3>
+            GUI based application to schedule exams based on criteria such as dates, locations and subjects by providing multiple ways to enter data into the database either through Excel for easy backend access or MySQL for more data definition and data manipulation options.
+          </div>
+        </div>
+      </div>
+          <div class="col-sm-4">
+        <div class="card">
+          <div class="card-top">
+            <img src="speech1.png" style="padding-top:45px;padding-bottom:45px;max-width:100%;  height:100%;" class="image">
+              <div class="middle">
+    <div class="text"><center><b>Technologies:</b><br>C# - Microsoft Speech - Visual Studio 2010</center> </div>
+  </div>
+          </div>
+          <div class="card-bottom">
+            <h3>System Control using Speech</h3>
+            Developed a program that runs in the background and listens to various speech commands to control various applications and system settings.
+          </div>
+        </div>
+      </div>
+          <div class="col-sm-4">
+        <div class="card">
+          <div class="card-top">
+            <a href="http://www.ijsrd.com/articles/IJSRDV3I60444.pdf"
+               style="background-image: url('hci1.png');background-size:contain;background-repeat:no-repeat" class="image">
+                
+            </a>
+              <br><br>
+              <div class="middle">
+    <div class="text"><center><b>Technologies:</b><br>Python - OpenCV</center> </div>
+  </div>
+          </div>
+          <div class="card-bottom">
+            <h3>HCI using Motion of Colored Objects</h3>
+            Conceptualized and Delivered a new way for humans to interact with computer by controlling the cursor by moving a colored object in front of the webcam.
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          
+          <div class="card-bottom">
+            <h3>Inverted Index Using a Hadoop Cluster </h3>
+            Implemented Map-Reduce algorithm to construct an Inverted index for a corpus of 3000 English books using Hadoop cluster. 
+              <br><br><b>Technologies:</b> <i>Java, Hadoop, Google Cloud</i>
+          </div>
+        </div>
+      </div>
+          <div class="col-sm-4">
+        <div class="card">
+          
+          <div class="card-bottom">
+            <h3>Web Crawler for New York Times Website  </h3>
+            Crawled the New York Times website to gather the meta data from the websites and performed analysis on the Fetch success rates and outgoing URLs. 
+              <br><b>Technologies:</b> <i>Java, Crawler4j</i>
+          </div>
+        </div>
+      </div>
+          <div class="col-sm-4">
+        <div class="card">
+          
+          <div class="card-bottom">
+            <h3>Convoluted Neural Network for Optical Character Recognition (Ongoing)</h3>
+            Designing a CNN with a center loss function to improve the accuracy of OCR process. 
+              <br><br><b>Technologies:</b> <i>Python, Keras, TensorFlow</i>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+<div class="hero skills" style="background-image: url(code.jpg)">
+  <div class="hero-text">
+    <h2>...by writing code</h2>
+    <div class="row">
+        <div class="col-xs-3">
+        <h3>Backend</h3>
+        <ul>
+          <li>Python</li>
+          <li>C</li>
+          <li>Java</li>
+          <li>C++</li>
+            <li>VB.Net</li>
+        </ul>
+      </div>
+      <div class="col-xs-3">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>PHP</li>
+          <li>XML</li>
+          <li>jQuery</li>
+          <li>Bootstrap</li>
+          <li>Android</li>
+        </ul>
+      </div>
+        <div class="col-xs-3">
+        <h3>Data</h3>
+        <ul>
+          <li>SQL</li>
+          <li>PL/SQL</li>
+          <li>MongoDB</li>
+          <li>Hadoop</li>
+        </ul>
+      </div>
+
+      <div class="col-xs-3">
+        <h3>Other</h3>
+        <ul>
+          <li>OpenCV</li>
+          <li>Google Cloud</li>
+          <li>AWS</li>
+          <li>Keras</li>
+          <li>TensorFlow</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="hero" style="background-color: #990000">
+  <div class="hero-text" style="color:#FFCC00">
+    <h2>I am studying at the University of Southern California</h2>
+    <div class="hero-tagline">MS in CS '18 - Fight On!</div>
+  </div>
+</div>
+
+<div class="hero" style="background-color: #002366">
+  <div class="hero-text">
+    <h2>and I Graduated from Osmania University, India</h2>
+    <div class="hero-tagline">BE in CS '16</div>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="hero-text hero-text-dark">
+    <h2>I have interned at Deloitte<span style="font-size:125px;color:#9ACD66">.</span></h2>
+    <div class="hero-tagline">And worked as a Student Researcher at the <a href="http://imsc.usc.edu/">Integrated Media Systems Center, USC</a> on the project <a href="http://mediaq.usc.edu/">MediaQ</a>.</div>
+  </div>
+</div>
+
+<div class="hero" style="background-image: url(adv.jpg)">
+  <div class="hero-text hero-text-light">
+    <h2>and now I am looking for my next adventure</h2>
+  </div>
+</div>
+
+<div class="hero">
+  <a name="contact"></a>
+  <div class="hero-text hero-text-dark">
+    <h2>Interested? Let's talk.</h2>
+    <div class="hero-tagline">Krishna Sai Rudra Dev Tallapragada</div>
+    <div class="hero-description">
+      <div><script>document.write('ktallapr@')</script>usc.edu</div>
+      <div class="social-buttons">
+        <a class="btn btn-social-icon btn-google"
+           href="https://plus.google.com/+WilliamLi0">
+          <span class="fa fa-lg fa-google"></span>
+        </a>
+        <a class="btn btn-social-icon btn-github"
+           href="https://github.com/wli">
+          <span class="fa fa-lg fa-github"></span>
+        </a>
+        <a class="btn btn-social-icon btn-linkedin"
+           href="https://www.linkedin.com/in/tallarudra">
+          <span class="fa fa-lg fa-linkedin"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq -- [];
+      _gaq.push(['_setAccount', 'UA-2315303-13']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    
+  </body>
+</html>
