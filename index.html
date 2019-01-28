@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="language" content="en-US">
     <meta name="author" content="Krishna Sai Rudra Dev Tallapragada" />
-    <meta name="description" content="Krishna Sai's personal website." />
+    <meta name="description" content="Krishna's personal website." />
     <title>Krishna Sai</title>
 
     
@@ -22,7 +22,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function(){
       Typed.new('.element', {
-        strings: ["Learner","Developer","Coder","Learner, Developer, Coder"],
+        strings: ["Learner","Researcher","Developer","Learner, Researcher, Developer"],
         typeSpeed: 10
       });
   });
@@ -61,6 +61,7 @@
 .card-top {
     position: relative;
     width: 100%;
+    min-height:100%;
 }
 .typed-cursor{
     opacity: 1;
@@ -120,7 +121,7 @@ width:60%;
 </style>
 
   </head>
-  <body >
+  <body style="height:100%">
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -143,7 +144,7 @@ width:60%;
         </div>
       </div>
     </div>
-    <div id="root-container" style="position: relative">
+    <div id="root-container" style="position: relative;height:100%">
       
 <div class="hero" style="background-image: url(hello.jpg)" id="top">
   <div class="hero-text">
@@ -320,6 +321,19 @@ width:60%;
             <li>VB.Net</li>
         </ul>
       </div>
+        <div class="col-xs-3">
+        <h3>Data &amp; Learning</h3>
+        <ul>
+            <li>Pytorch</li>
+            <li>Tensorflow</li>
+            <li>Scikit-Learn</li>
+            <li>Pandas</li>
+            <li>Numpy</li>
+          <li>SQL</li>
+          <li>PL/SQL</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
       <div class="col-xs-3">
         <h3>Frontend</h3>
         <ul>
@@ -333,24 +347,14 @@ width:60%;
           <li>Android</li>
         </ul>
       </div>
-        <div class="col-xs-3">
-        <h3>Data</h3>
-        <ul>
-          <li>SQL</li>
-          <li>PL/SQL</li>
-          <li>MongoDB</li>
-          <li>Hadoop</li>
-        </ul>
-      </div>
+        
 
       <div class="col-xs-3">
         <h3>Other</h3>
         <ul>
           <li>OpenCV</li>
           <li>Google Cloud</li>
-          <li>AWS</li>
-          <li>Keras</li>
-          <li>TensorFlow</li>
+            <li>AWS</li>
         </ul>
       </div>
 
@@ -360,30 +364,44 @@ width:60%;
 
 <div class="hero berkeley" style="background-color: #990000">
   <div class="hero-text">
-    <h2>I am studying at the University of Southern California</h2>
+    <h2>I graduated from the University of Southern California</h2>
     <div class="hero-tagline">MS in CS '18 - Fight On!</div>
+      <br><br><br><br>
+      <h2 style="color:#ffffff">and Osmania University, India</h2>
+    <div class="hero-tagline" style="color:#ffffff">BE in CS '16</div>
   </div>
+    
 </div>
 
-<div class="hero" style="background-color: #778899">
-  <div class="hero-text">
-    <h2>and have Graduated from Osmania University, India</h2>
-    <div class="hero-tagline">BE in CS '16</div>
-  </div>
-</div>
-
-<div class="hero">
+        <div class="hero">
   <div class="hero-text hero-text-dark">
-    <h2>I have interned at Dromebox Labs and at Deloitte<span style="font-size:125px;color:#9ACD66">.</span></h2>
-    <div class="hero-tagline">And worked as a Student Researcher at the <a href="http://imsc.usc.edu/" target="_blank">Integrated Media Systems Center, USC</a> on a project called <a href="http://mediaq.usc.edu/" target="_blank">MediaQ</a>.</div>
+      <h2>I have worked at<br></h2>
+        <div class="hero-tagline"><a href="https://www2.deloitte.com/us/en/" target="_blank">Deloitte</a><span style="font-size:60px;color:#9ACD66">.</span> India as an Advisory Analyst Intern
+            <br>Dromebox Labs, Los Angeles as a Software Developer Intern.
+            <br><span style="font-size:35px"></span>
+      
+    And at the <a href="http://imsc.usc.edu/" target="_blank">Integrated Media Systems Center, USC</a> as a Student Researcher.</div>
   </div>
 </div>
+        
+<div class="hero" style="background-image: url(gans6.gif)">
+    
+  <div class="hero-text hero-text-dark card-bottom" style="color:black;background-color:white">
+      <h2>I am now building deep learning models using 3D data to solve some cool problems at <a href="https://www.kohyoung.com/en">Koh Young Research America</a> as a Junior R&amp;D Engineer.</h2><br>
+        
+      <div class="hero-tagline">My latest fascination, are the <a href= "https://arxiv.org/pdf/1406.2661.pdf" target="_blank" >GANs.</a></div>
+  </div>
+    <div style="font-family: 'Dosis', sans-serif;font-size:24px;right:0;bottom:0;position:absolute"><a href="https://medium.com/@animeshsk3/the-unprecedented-effectiveness-of-progressive-growing-of-gans-37475c88afa3" target="_blank" >Source</a></div>
+</div>
 
+
+<!--
 <div class="hero" style="background-image: url(adv.jpg)">
   <div class="hero-text hero-text-light">
     <h2><span style="background-color:black">and now I am looking for my next adventure</span></h2>
   </div>
 </div>
+-->
 
 <div class="hero" id="contact">
   <a name="contact"></a>
